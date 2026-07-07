@@ -11094,4 +11094,24 @@ a:hover {
     }
 }
 
+
+  .foto-movil {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .foto-movil {
+        display: block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .foto-movil img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 6px solid #0f766e;
+    }
+}
+
 }
